@@ -46,7 +46,7 @@ h3 {
     border: 2px solid black;
     float:left;
     margin-left: 60px;
-    margin-right: 190px;
+    margin-right: 20px;
 }
 
 .title {
@@ -59,6 +59,7 @@ h3 {
     position: absolute;
     top: 0px;
     right: 0px;
+    z-index: 0;
 }
 
 .first-container {
@@ -78,8 +79,8 @@ h3 {
 
 .text-container {
     background-color: #597928;
-    width: 480px;
-    height: 170px;
+    width: 50%;
+    height: 20%;
     border-radius: 15px;
     padding: 1px;
     margin-top: 0px;
@@ -113,7 +114,7 @@ h3 {
 }
 
 .flex-grid-container {
-    height: 95vh;
+    height: 600px;
     width: 74%;
     margin-left: 13%;
     margin-top: 4%;
@@ -121,11 +122,9 @@ h3 {
 }
 
 .grid-container {
-    height: 100%;
-    width: 100%;
     display: grid;
-    grid-template-columns: 400px 238px 238px;
-    column-gap: 20px;
+    grid-template-columns: 38% 29% 29%;
+    column-gap: 2%;
     grid-template-rows: 300px 130px 130px;
     row-gap: 20px;
 }

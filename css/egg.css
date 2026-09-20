@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Undertale";
+    src: url("../assets/fonts/PixelOperator-Bold.ttf");
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+p {
+    color: white;
+    font-family: "Undertale";
+    font-size: 35px;
+    margin: 0px;
+}
+
+.flex-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
