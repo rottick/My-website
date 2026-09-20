@@ -1,0 +1,220 @@
+@font-face {
+    font-family: "YesevaOne-Regular";
+    src: url(../assets/fonts/YesevaOne-Regular.ttf)
+}
+
+@font-face {
+    font-family: "Sniglet";
+    src: url(../assets/fonts/Sniglet-Regular.ttf);
+}
+
+body {
+    background-color: #91ac67;
+    margin: 0;
+}
+
+h1, h2, h3, p {
+    color: #fcecd8;
+}
+
+h1, h2 {
+    font-family: "YesevaOne-Regular";
+    font-weight: 100;
+}
+
+p {
+    font-family: "Sniglet";
+    font-size: 20px;
+}
+
+h3 {
+    font-family: "Sniglet";
+    font-size: 27px;
+    font-weight: 100;
+}
+
+.banner {
+    background-image: linear-gradient(to right, #597928, #2d3d16);
+    width: 100%;
+    height: 200px;
+    padding-top: 50px;
+}
+
+.pars {
+    height: 170px;
+    border-radius: 50%;
+    border: 2px solid black;
+    float:left;
+    margin-left: 60px;
+    margin-right: 190px;
+}
+
+.title {
+    font-size: 36px;
+    display: inline-block;
+}
+
+.leaf {
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.first-container {
+    overflow: auto;
+}
+
+.subtitle {
+    font-size: 30px;
+    margin-left: 68px;
+    margin-top: 60px;
+    display:inline-block;
+}
+
+.presentation-title {
+    margin-bottom: 20px;
+}
+
+.text-container {
+    background-color: #597928;
+    width: 480px;
+    height: 170px;
+    border-radius: 15px;
+    padding: 1px;
+    margin-top: 0px;
+    margin-left: 68px;
+    text-align: left;
+}
+
+.presentation {
+    margin-left: 15px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.egg-link {
+    text-decoration: none;
+    color: #fcecd8;
+}
+
+.trees-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.trees {
+    height: 300px;
+}
+
+.hr-1 {
+    border: 2px solid #597928;
+    margin-top: -2px;
+    margin-bottom: 0px;
+}
+
+.flex-grid-container {
+    height: 95vh;
+    width: 74%;
+    margin-left: 13%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.grid-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 400px 238px 238px;
+    column-gap: 20px;
+    grid-template-rows: 300px 130px 130px;
+    row-gap: 20px;
+}
+
+.green {
+    background-color: #597928;
+    border-radius: 15px;
+}
+
+.second {
+    grid-area: 1 / 2 / 3 / 3;
+}
+
+.third {
+    grid-area: 1 / 3 / 3 / 4;
+}
+
+.fourth {
+    grid-area: 2 / 1 / 4 / 2;
+}
+
+.fifth {
+    grid-area: 3 / 2 / 4 / 4;
+    text-align: center;
+}
+
+.flex-about-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.book {
+    width: 240px;
+}
+
+.pc {
+    width: 160px;
+}
+
+.flex-about-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.certificate {
+    width: 130px;
+}
+
+.hobbies {
+    width: 80px;
+}
+
+.about-me {
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.bg-leaf {
+    height: 750px;
+    position:absolute;
+    top: 910px;
+    left: 0px;
+    z-index: -1;
+}
+
+.footer {
+    background-image: linear-gradient(to right, #597928, #2d3d16);
+    width: 100%;
+    height: 180px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.credits-container {
+    display: flex;
+    justify-content: center;
+}
+
+.credits {
+    font-size: 13px;
+}
